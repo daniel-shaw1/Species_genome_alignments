@@ -1,4 +1,13 @@
+
+
 ###download minimap and k8, copy k8 into path where paftools will be called 
+# install minimap2
+git clone https://github.com/lh3/minimap2
+cd minimap2 && make
+# install the k8 javascript shell
+curl -L https://github.com/attractivechaos/k8/releases/download/v0.2.4/k8-0.2.4.tar.bz2 | tar -jxf -
+
+#put k8 in path
 cp k8-0.2.4/k8-Linux /scratch/des65576/Mouse/paftovcf/
 
 cp k8-0.2.4/k8$HOME/bin/k8 
