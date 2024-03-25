@@ -9,7 +9,6 @@
 
 cd $SLURM_SUBMIT_DIR
 
-ml SAMtools/1.16.1-GCC-11.3.0
 ml minimap2/2.22-GCC-8.3.0
 minimap2 -x asm10 --cs -t 8 GCF_000001635.27_GRCm39_genomic.fna tw5_HiFiONT_defaultctgs_25kbNs_norm.fa.gz > thap_aln_mm_unmasked.paf
 
