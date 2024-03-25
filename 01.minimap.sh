@@ -11,9 +11,10 @@ cd $SLURM_SUBMIT_DIR
 
 ml minimap2/2.22-GCC-8.3.0
 minimap2 -x asm10 --cs -t 8 GCF_000001635.27_GRCm39_genomic.fna tw5_HiFiONT_defaultctgs_25kbNs_norm.fa.gz > thap_aln_mm_unmasked.paf
-
+## minimap2 -x divergence (5,10,20) -t threads first_genome.fa second_genome.fa > output.paf
 
 
 
 ###asm10 is for 10 percent genome divergence
 ###output is a paf
+###Note I have had issues with masked assemblies not working with paftools.. consider unmasked fastas to start.
