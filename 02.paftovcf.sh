@@ -24,3 +24,5 @@ k8-Linux paftools.js call thap_mm10.paf_srt.paf  > asm.var.unmasked.txt
 
 ##make output into vcf format, -f to for genome for vcf to be based off of.
 k8-Linux paftools.js call -f chr17.fa thap_mm10.paf_srt.paf - > thap_mm10b.vcf
+
+###Sometimes vcf is empty if genome file for alignment was masked--not sure why.
