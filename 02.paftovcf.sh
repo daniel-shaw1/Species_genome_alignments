@@ -1,4 +1,4 @@
-
+### modified from https://github.com/lh3/minimap2/blob/master/misc/README.md
 
 ###download minimap and k8, copy k8 into path where paftools will be called 
 # install minimap2
